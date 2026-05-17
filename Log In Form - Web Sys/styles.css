@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #fce4ec;
+}
+
+.box {
+  width: 90%;
+  max-width: 320px;
+  padding: 25px;
+  background: #fff0f5;
+  border: 1px solid #f8bbd0;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #c2185b;
+  margin: 0 0 20px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  color: #880e4f;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #f48fb1;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #ec407a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d81b60;
+}
+
+.err {
+  display: block;
+  color: red;
+  font-size: 12px;
+  min-height: 16px;
+}
+
+#msg {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.success {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
